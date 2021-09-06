@@ -1,0 +1,295 @@
+*{
+    font-family: 'Cabin', sans-serif;
+}
+.black{
+    background-color: rgb(24, 23, 23);
+}
+
+.gray{
+    background-color: rgb(218, 216, 216);
+}
+.grey{
+    color: rgb(114, 114, 114);
+}
+.yellow{
+    color: rgba(255, 238, 50)
+}
+.orange{
+    color: rgba(255, 209, 0)
+}
+.jet{
+    color:rgba(51, 53, 51)
+}
+.bt a:hover {
+    background-color: rgba(51, 53, 51);
+    border-top: 3px solid rgba(255, 238, 50);
+    color: rgba(214, 214, 214);
+}
+#navbar{
+    position:sticky;
+    top : 0px;
+    left: 0px;
+}
+.navbar{
+    z-index:1;
+}
+.navb{
+    font-size: 20px;
+    padding-right: 20px;
+}
+.navbar-toggler{
+    width: 49px;
+    height: 34px;
+}
+.navbar-toggler .line{
+    width: 100%;
+    float: left;
+    height: 1px;
+    margin: 2px;
+    background-color: rgb(231, 231, 231);
+ 
+}
+.logo{
+    padding-left: 15px;
+    width: 170px;
+}
+/* .Sliderbtn {
+  display:inline-block;
+  position: absolute;
+  top: 45%;
+  left: 60%;
+  } */
+
+  .slide{
+      position: relative;
+  }
+.mainhead{
+    position: absolute;
+    font-family: 'Bebas Neue', cursive;
+    color: #ffffff;
+    font-size: 4vw;
+    text-transform: uppercase;
+    top:45%;
+    left:53%;
+    text-transform: uppercase;
+}
+
+.mainhead1{
+    position: absolute;
+    font-family: 'Courgette', cursive;
+    color: rgba(255, 238, 50);
+    font-size: 3vw;
+    top:60%;
+    left:53%;
+}
+
+/*
+.Sliderbtn button{
+    position: absolute;
+    background-color: rgba(214, 214, 214);
+    color: black;
+    font-size: 1vw;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 2px;
+}
+.Sliderbtn button:hover{
+    background-color: rgba(255, 209, 0);
+} 
+
+.Sliderp1{
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    font-size: 45px;
+    text-transform: uppercase;
+}
+.Sliderp2{
+    font-family: 'Courgette', cursive;
+        color: rgba(255, 238, 50);
+    font-size: 45px;
+} */
+
+.footer{
+    background-color: rgba(51, 53, 51);
+    color:rgb(194, 194, 194)
+}
+.fintro{
+    font-family: 'Zilla Slab', serif;
+}
+.sintro span{
+    font-size: 80px;
+    color: rgba(255, 238, 50);
+    display:table;
+    margin:0 auto;
+}
+.sintro a{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+.sintro p{
+    color: rgb(114, 114, 114);
+    font-size: 20px;
+}
+
+.frevolution{
+    background-image: linear-gradient(rgb(99, 97, 97), rgb(34, 34, 33));
+    color:white;
+    font-size: 45px;
+    text-align: center;
+    padding: 10px;
+    letter-spacing: 10px;
+}
+.text{
+ background: -webkit-linear-gradient(rgba(255, 238, 50), rgb(255, 51, 1) );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.ftf 
+{ 
+    
+    font-family: 'Zilla Slab', serif;
+    font-weight: bolder;
+    font-size: 50px; 
+    color: rgb(0, 0, 0);  
+     text-align: center; 
+     line-height: 80px;
+}
+
+.tt{
+    margin-top: 15px;
+    max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 18px;
+ 
+ 
+}
+.tt thead{
+    font-size: 24px;
+    background-color: #b6b6b6;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+.tt tbody{
+    background-color: #ffffff;
+    box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.1);
+   
+}
+.tt tr{
+    padding: 5px;
+    box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.1);
+}
+
+.intro{
+background-color: rgb(255, 208, 0);
+}
+
+.intro p{
+ padding: 5px;
+ font-size: 32px;
+ text-align: center;
+ color: white;
+ text-shadow:1px 1px  3px #0c0c0c;
+}
+
+.Contact{
+    color: #000;
+    overflow-x: hidden;
+    height: 100%;
+    background-size: 100% 100%
+}
+.card {
+    
+   
+    padding: 30px 40px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    border: none;
+    box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2)
+}
+
+.carde {
+    
+    background-color: rgba(231, 230, 230, 0.849) ;
+    padding: 30px 40px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    border: none;
+    box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2)
+}
+
+
+
+.form-control-label {
+    margin-bottom: 0
+}
+
+input,
+textarea,
+button {
+    padding: 8px 15px;
+    border-radius: 5px !important;
+    margin: 5px 0px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    font-size: 18px !important;
+    font-weight: 300
+}
+
+input:focus,
+textarea:focus {
+    box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.2)  !important;
+    border: 1px solid rgba(255, 209, 0);
+    outline-width: 0;
+    font-weight: 400
+}
+
+.btn-block {
+    text-transform: uppercase;
+    font-size: 15px; 
+    font-weight: 400;
+    height: 43px;
+    cursor: pointer;
+}
+
+.btn-block:hover {
+    color: white;
+background-color: green;
+}
+
+button:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    outline-width: 0;
+    color: green;
+}
+
+.trainer{
+background-image: radial-gradient(rgb(46, 66, 64),rgb(86, 195, 206));
+background-color: rgb(136, 161, 167);
+}
+.trainer p{
+ padding: 15px;
+ font-size: 60px;
+ text-align: center;
+ color: white;
+ text-shadow:1px 1px  5px #0c0c0c;
+}
+
+.card:hover {
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  }
+
+.list{
+    color: black;
+    font-size: 16px;
+}
+.list a {
+    text-decoration: none;
+}
